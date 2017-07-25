@@ -12,5 +12,9 @@ public class ColorChange : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+		if(Input.GetKeyUp(KeyCode.Space))
+			{
+				GetComponent<MeshRenderer>().material.color = new Color(1,.5f,1);
+			}
 	}
 }
