@@ -445,6 +445,7 @@ GameObject:
   - component: {fileID: 2129487943}
   - component: {fileID: 2129487942}
   - component: {fileID: 2129487941}
+  - component: {fileID: 2129487945}
   m_Layer: 0
   m_Name: Kostka
   m_TagString: Untagged
@@ -465,7 +466,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 0006fdb1df571bf4e8e2ffb4825f681d, type: 2}
+  - {fileID: 2100000, guid: e2f77ad8e9f12ba478ce3017c0e1f321, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -516,3 +517,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
+--- !u!114 &2129487945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2129487940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3c233266a7b7e4f8b0e5697f99e0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
