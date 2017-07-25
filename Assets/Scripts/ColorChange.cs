@@ -14,7 +14,7 @@ public class ColorChange : MonoBehaviour {
 		
 		if(Input.GetKeyUp(KeyCode.Space))
 			{
-				GetComponent<MeshRenderer>().material.color = new Color(1,.5f,1);
+				GetComponent<MeshRenderer>().material.color = new Color(0.5f,1f,0.5f);
 			}
 	}
 }
